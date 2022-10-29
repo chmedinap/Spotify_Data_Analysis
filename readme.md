@@ -10,7 +10,7 @@ For this book I took one of the subjects that I love the most, music and using t
 
 
 
-![Logo](https://dev-to-uploads.s3.amazoaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo](https://github.com/chmedinap/Spotify_Data_Analysis/blob/main/Logo.png)
 
 
 ## Authors
