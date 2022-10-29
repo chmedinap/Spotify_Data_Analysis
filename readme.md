@@ -1,5 +1,6 @@
 
 # Analyzing Spotify data through the API
+![Logo](https://github.com/chmedinap/Spotify_Data_Analysis/blob/main/Logo.png)
 
 To see the interactive document published with Quatro, go to this link: https://spotify.chmedina.com
 
@@ -10,7 +11,7 @@ For this book I took one of the subjects that I love the most, music and using t
 
 
 
-![Logo](https://github.com/chmedinap/Spotify_Data_Analysis/blob/main/Logo.png)
+
 
 
 ## Authors
