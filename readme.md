@@ -2,7 +2,7 @@
 # Analyzing Spotify data through the API
 ![Logo](https://github.com/chmedinap/Spotify_Data_Analysis/blob/main/Logo.png)
 
-To see the interactive document published with Quatro, go to this link: https://spotify.chmedina.com
+To see the interactive document published with Quarto, go to this link: https://spotify.chmedina.com
 
 This is the repository for a data visualization curriculum of interactive notebooks using *[Quarto](https://quarto.org)* and *[Plotly](https://plotly.com/)*. This document was made to be part of my portfolio as a data analyst.
 
