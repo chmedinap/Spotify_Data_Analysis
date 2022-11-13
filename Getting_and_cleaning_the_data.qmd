@@ -1,0 +1,45 @@
+# Getting and cleaning the data
+
+## Requesting the data from Spotify
+In this part, I will analyze my personal data that Spotify has collected in the last 9 years. In order to do this you first need the data, this must be requested from Spotify in the [privacy](https://www.spotify.com/us/account/privacy/) section of your account, here you will have three options:
+
+* Account data
+* Streaming history
+* Technical information
+
+For this post I chose to do it with my streaming history. Spotify took about a week to deliver the data.
+
+## Cleaning the data
+
+### JSON Files
+Spotify will deliver several json files which can be directly imported into PowerBI for analysis, however this is something I am not comfortable with and I decided to make a small script to transform them into a single csv file.
+
+```python
+#convert json to csv
+import json
+import csv
+#open json files
+for i in range(0, 10):
+    with open('endsong_{}.json'.format(i)) as f:
+        data = json.load(f)
+#json to dataframe
+import pandas as pd
+df = pd.DataFrame(data)
+df.size
+#convert dataframe to csv
+df.to_csv('endsong_{}.csv'.format(i), index=False)
+```
+
+### Importing the data
+After having the csv file, it is imported into Power BI and the steps I followed for this were:
+
+1. Delete podcast related data as it is not relevant to me.
+2. Rename columns appropriately
+3. The "platform" column is divided by space to obtain the platform without its version, for example, from having "Windows 7 (6.1.7601; x64; SP1; S)" it becomes only "Windows"
+4. Create a new column where I transformed the duration of the songs from milliseconds to minutes.
+
+In the end my table looks like this:
+
+![Spotify Dataset 1 Preview](/PowerBi/1-Spotify_Dataset1_preview.png "Title: Spotify Dataset 1 Preview"){fig-alt="Spotify Dataset 1 preview."}
+
+For now I don't need more, so I can start creating the dashboard with PowerBi.
