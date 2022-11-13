@@ -4,7 +4,8 @@
 
 To see the interactive document published with Quarto, go to this link: https://spotify.chmedina.com
 
-This is the repository for a data visualization curriculum of interactive notebooks using *[Quarto](https://quarto.org)* and *[Plotly](https://plotly.com/)*. This document was made to be part of my portfolio as a data analyst.
+A data visualization curriculum of interactive notebooks using *[Quarto](https://quarto.org)*, *[Plotly](https://plotly.com/)*, *[PowerBi](https://powerbi.microsoft.com/en-au/)* and *[Google Data Studio](https://datastudio.google.com//)*. This document was made to be part of my portfolio as a data analyst. For this book I took one of the subjects that I love the most, music; And using the Spotify API and my listening historic data I will explore the many options we have to display data appropriately.
+
 
 For this book I took one of the subjects that I love the most, music and using the Spotify API and my listening historic data I will explore the many display options we have to display data appropriately.
 
